@@ -1,0 +1,103 @@
+
+.card{
+    background-image: linear-gradient(#f5dd0411, #ffa60046), url(/image/fondogaleria2.jpeg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+   
+}
+
+.card-body{
+    border: solid 4px white;
+    border-radius: 10px;
+    overflow:hidden;
+    transition: all ease-out 0.2s;
+    box-shadow: 6px 6px 20px rgb(0,0,0, 0.24);
+    
+    
+}
+
+.card-body:hover{
+    transform: scale(1.03);
+}
+
+.card-titulo{
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.lead{
+    color:cornsilk;
+}
+.title{
+    font-size: 50px;
+    font-family: fantasy;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+
+.text{
+    font-family: fantasy;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border: solid 4px white;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+}
+.text2{
+    font-family: fantasy;
+    /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+    /* border: solid 2px white;
+    border-radius: 10px; */
+    margin: auto;
+    padding: auto;
+}
+.sub-title{
+    margin: 10px initial;
+    
+}
+.video{
+    margin: auto ;
+    padding: auto;
+    width: 75%;
+    border: solid 2px white;
+    border-radius: 10px;
+
+}
+#galeria .col-lg-4 {
+    margin: 0%;
+    padding: 25px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+#galeria img {
+    width: 80%;
+    
+
+    
+}
+.accordion-item{
+    background-image: linear-gradient(#f5dd0411, #ffa60046);
+}
+#accordionExample{
+    background-color: #2962ff;
+}
+.accordion-body{
+    background-color: #2962ff93; 
+}
+
+.card-accordion{
+    background-color: #2962ff;
+    border: solid 4px white;
+    border-radius: 10px;
+}
+.text-galeria{
+    font-family: fantasy;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+}
